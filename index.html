@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline with Sliding Effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content-wrapper">
+            <div class="content" id="content-2018">
+                <img src="assets/baseicdrone.jpg" alt="April 2018 Image">
+                <h2>April 2018</h2>
+                <p>We are one of India's leading drone firms in providing end-to-end Drone Solutions </p>
+            </div>
+            <div class="content" id="content-2019" style="transform: translateX(100%);">
+                <img src="assets/drone1.png" alt="April 2019 Image">
+                <h2>April 2019</h2>
+                <p>Our company grew exponentially with several high-profile clients.</p>
+            </div>
+            <div class="content" id="content-2020" style="transform: translateX(100%);">
+                <img src="assets/drone2.jpg" alt="April 2020 Image">
+                <h2>April 2020</h2>
+                <p>We expanded our services across multiple sectors.</p>
+            </div>
+            <div class="content" id="content-2021" style="transform: translateX(100%);">
+                <img src="assets/drone.jpg" alt="April 2021 Image">
+                <h2>April 2021</h2>
+                <p>Our innovations led to global recognition.</p>
+            </div>
+            <div class="content" id="content-2022" style="transform: translateX(100%);">
+                <img src="assets/droneimage.jpeg" alt="April 2022 Image">
+                <h2>April 2022</h2>
+                <p>We expanded into international markets.</p>
+            </div>
+            <div class="content" id="content-2023" style="transform: translateX(100%);">
+                <img src="assets/drone3.jpg" alt="April 2023 Image">
+                <h2>April 2023</h2>
+                <p>Developed new cutting-edge drone technologies.</p>
+            </div>
+            <div class="content" id="content-2024" style="transform: translateX(100%);">
+                <img src="assets/finaldrone.jpeg" alt="April 2024 Image">
+                <h2>April 2024</h2>
+                <p>Our firm has become a leader in drone innovation.</p>
+            </div>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item active" onclick="showContent(0)">
+                <div class="circle"></div>
+                <span>April 2018</span>
+            </div>
+            <div class="timeline-item" onclick="showContent(1)">
+                <div class="circle"></div>
+                <span>April 2019</span>
+            </div>
+            <div class="timeline-item" onclick="showContent(2)">
+                <div class="circle"></div>
+                <span>April 2020</span>
+            </div>
+            <div class="timeline-item" onclick="showContent(3)">
+                <div class="circle"></div>
+                <span>April 2021</span>
+            </div>
+            <div class="timeline-item" onclick="showContent(4)">
+                <div class="circle"></div>
+                <span>April 2022</span>
+            </div>
+            <div class="timeline-item" onclick="showContent(5)">
+                <div class="circle"></div>
+                <span>April 2023</span>
+            </div>
+            <div class="timeline-item" onclick="showContent(6)">
+                <div class="circle"></div>
+                <span>April 2024</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
